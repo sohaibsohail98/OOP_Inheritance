@@ -9,22 +9,18 @@ class Mammal(Animal):
         self.origin = origin
 
      def animaltype(self):
-        self.animaltype = "what the type of animal it is, in this case a Mammal."
-        print(self.animaltype)
+         print("what the type of animal it is, in this case a Mammal.")
 
      def prey(self):
-         self.prey = "a prey is something the animal would like to eat"
-         print(self.prey)
+         print("a prey is something the animal would like to eat")
 
      def predator(self):
-         self.predator = "a predator is a animal that will hunt this animal"
-         print(self.predator)
+         print("a predator is a animal that will hunt this animal")
 
      def origin(self):
-         self.origin = "Where the animal is from globally"
-         print(self.origin)
+         print("Where the animal is from globally")
 
 
 Tiger = Mammal(True, True, False, True, "Big cats", "Deer", "Crocodile", "Siberia")
-Tiger.animaltype()
+
 
