@@ -1,1 +1,1 @@
-This is the inheritance OOP incorporated. 
+This is an example of inheritance code of OOP incorporated. 
